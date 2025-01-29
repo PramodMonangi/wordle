@@ -1,0 +1,78 @@
+.body{
+    text-align: center;
+}
+.wordle {
+    width: 300px;
+    margin: auto;
+  }
+  .word{
+    display: flex;
+  }
+  .letter{
+    display:flex;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(236, 232, 232);
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+    
+  }
+
+  .keyboard{
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .spbtn{
+    flex: 2 1;
+  }
+
+  .keyboard .letter{
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .keyboard .cgray:hover, .spbtn:hover{
+    background-color: lightgray;
+  }
+
+  .keyboard .cgray:active, .spbtn:active{
+background-color: gray;
+  }
+
+  .cgreen{
+    background-color: green;
+  }
+
+  .cwhite{
+    background-color: darkgray;
+  }
+
+  .corange{
+    background-color: orange;
+  }
+
+  .btns{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    width: 400px;
+  }
+
+  .btns button{
+    padding: 20px;
+    background-color: rgb(180, 119, 237);
+    border-radius: 10px;
+    width: 150px;
+    cursor: pointer;
+  }
+
+  @media only screen and (min-width: 600px) {
+    .keyboard{
+      width: 70%;
+    }
+  }

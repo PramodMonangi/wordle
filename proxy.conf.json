@@ -1,0 +1,10 @@
+{
+    "/sgb-words.txt": {
+      "target": "https://www-cs-faculty.stanford.edu",
+      "secure": false,
+      "changeOrigin": true,
+      "logLevel": "debug",
+      "pathRewrite": { "^/sgb-words.txt": "/~knuth/sgb-words.txt" }
+    }
+  }
+  
